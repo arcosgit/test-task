@@ -25,7 +25,6 @@ const getIncomes = async (page) => {
       incomesData.currentPage = page;
       touchLine.value++;
       incomesData.pages = setPagesForPaginate(page, incomesData.lastPage);
-      console.log(incomes);
     } catch {
       incomesData.data = []; 
     }
