@@ -1,0 +1,7 @@
+@import "tailwindcss";
+* {
+    scrollbar-color: #3e3e3e #181818;
+    scrollbar-width: thin;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+}
